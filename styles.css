@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVIGATION BAR */
+header {
+    margin-bottom: auto;
+    background-color: peru;
+    padding: 1.2rem 1.25rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+}
+  
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+nav a:hover {
+    color: brown;
+}
+
+nav img {
+    width: 2.1rem;
+}
+  
+.button {
+    font-family: sans-serif;
+    background-color: peru;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: brown;
+}
+
+/* MAIN MENU */
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    max-width: 55vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1%;
+}
+  
+h2 {
+    font-size: 1.5rem;
+    margin: 3%;
+}
+  
+.established {
+    font-style: italic;
+    margin-bottom: 3%;
+}
+  
+h1, h2, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+  
+.bottom-line {
+    margin-top: 35px;
+}
+  
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    display: inline-flex;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.flavor, .dessert {
+  justify-content: flex-start;
+}
+
+.price {
+  justify-content: flex-end;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto; /* Push and keep the footer at the bottom */
+    background-color: peru;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer-column {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+.footer-column a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.footer-column h3 {
+    font-size: 1rem;
+}
+
+.map-container {
+    font-size: 0.6rem;
+}
+
+iframe {
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-bottom: 2%;
+}
+
+/* Pseudo-classes */
+.footer-column a:visited {
+    color: black;
+}
+  
+.footer-column a:hover {
+    color: brown;
+}
+  
+.footer-column a:active {
+    color: brown;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 480px) {
+    footer {
+        display: block;
+    }
+
+    .menu {
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+}

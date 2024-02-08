@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="./styles.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <header>
+    <nav>
+      <ul>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#"><img src="https://parspng.com/wp-content/uploads/2022/12/coffeepng.parspng.com-5.png" alt="cup"></a></li>
+        <li><button onclick="printMessage()" class="button" type="button">Dk</button></li>
+      </ul>
+    </nav>
+    </header>
+    
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+            <h2>Coffee</h2>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+
+            <article class="item">
+              <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+            </article>
+            <article class="item">
+              <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+            </article>
+            <article class="item">
+              <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+            </article>
+            <article class="item">
+              <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+            </article>
+            <article class="item">
+              <p class="flavor">Mocha</p><p class="price">4.50</p>
+            </article>
+        </section>
+
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+        
+            <article class="item">
+              <p class="dessert">Donut</p><p class="price">1.50</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+            </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+    </div>
+    
+    <footer>
+      <div class="footer-column">
+          <h3>Product</h3>
+          <ul>
+            <li><a href="#">Our Coffee</a></li>
+            <li><a href="#">Our Desserts</a></li>
+            <li><a href="#">Delivery</a></li>
+          </ul>
+      </div>
+  
+      <div class="footer-column">
+          <h3>Camper Cafe</h3>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Join our team!</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+      </div>
+  
+      <div class="footer-column">
+        <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Allergens</a></li>
+            <li><a href="#">Privacy Notice</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Cookie policy</a></li>
+          </ul>
+      </div>
+  
+      <div class="footer-column">
+          <ul class="map-container">
+              <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2675.102532739003!2d12.60139963093618!3d55.68057195758348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253256f012ff3%3A0x680b1b05dd2d97d5!2sDanneskiold-Sams%C3%B8es%20All%C3%A9%2041%2C%201434%20K%C3%B8benhavn!5e0!3m2!1sen!2sdk!4v1707161815106!5m2!1sen!2sdk" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+              <li><p>123 Free Code Camp Drive</p></li>
+          </ul>
+      </div>
+    </footer>
+
+    <script>
+      function printMessage() {
+        alert("Hello World! It's my first JS alert ╰(▔∀▔)╯");
+      }
+    </script>
+
+  </body>
+</html>
